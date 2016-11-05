@@ -78,6 +78,6 @@
     "sassdoc": "2.1.20"
   },
   "dependencies": {
-    "vanilla-framework": "^0.0.77"
+    "vanilla-framework": "^1.0.1"
   }
 }

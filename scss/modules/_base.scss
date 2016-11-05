@@ -8,13 +8,13 @@
 /// @group Utils
 @mixin ubuntu-base {
   body {
-    background-color: $light-grey;
-    background-image: url('#{$asset-path}img/backgrounds/image-background-paper.png?w=$breakpoint-medium');
+    background-color: $color-light;
+    background-image: url('#{$assets-path}img/backgrounds/image-background-paper.png?w=$breakpoint-medium');
     background-position: center top;
     background-repeat: repeat-y;
 
     @media only screen and (min-width : $breakpoint-medium) {
-      background-image: url('#{$asset-path}img/backgrounds/image-background-paper.png');
+      background-image: url('#{$assets-path}img/backgrounds/image-background-paper.png');
     }
   }
 }

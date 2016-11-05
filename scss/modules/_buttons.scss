@@ -25,7 +25,7 @@
   input[type="submit"] {
     @extend %ubuntu-button;
     background: $ubuntu-orange;
-    color: $white;
+    color: $color-x-light;
 
     &:hover {
       background: darken($ubuntu-orange, 6.2%);
@@ -43,7 +43,7 @@
   .cta-canonical {
     @extend %ubuntu-button;
     background: $canonical-aubergine;
-    color: $white;
+    color: $color-x-light;
 
     &:hover {
       background: darken($canonical-aubergine, 6.2%);
@@ -52,11 +52,11 @@
   }
 
   .row-enterprise .link-cta-canonical {
-    background: $white;
+    background: $color-x-light;
     color: $canonical-aubergine;
 
     &:hover {
-      background: $white;
+      background: $color-x-light;
       text-decoration: underline;
     }
   }
@@ -69,11 +69,11 @@
 @mixin ubuntu-cta-invert() {
   .link-cta-invert {
     @extend %ubuntu-button;
-    background: $white;
-    color: $cool-grey;
+    background: $color-x-light;
+    color: $color-mid-dark;
 
     &:hover {
-      background: $white;
+      background: $color-x-light;
       text-decoration: underline;
     }
   }
@@ -86,7 +86,7 @@
 @mixin ubuntu-cta-deactivated() {
   .cta-deactivated {
     background: $box-solid-grey;
-    color: $white;
+    color: $color-x-light;
     cursor: not-allowed;
   }
 }

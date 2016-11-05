@@ -22,10 +22,10 @@
       border-left-color: darken($brand-color, 4%);
 
       ul {
-        box-shadow: 0 2px 2px -1px $warm-grey;
+        box-shadow: 0 2px 2px -1px $color-dark;
         border-radius: 10px;
-        background: $light-grey;
-        border: 1px solid $mid-grey;
+        background: $color-light;
+        border: 1px solid $color-mid-light;
         display: none;
         float: none;
         margin: 0;
@@ -50,7 +50,7 @@
       &:hover {
         background: lighten($brand-color, 6%);
         box-shadow: none;
-        color: $white;
+        color: $color-x-light;
       }
     }
 
@@ -72,7 +72,7 @@
     li ul li a,
     li ul li a:link,
     li ul li a:visited {
-      color: $cool-grey;
+      color: $color-mid-dark;
       border: 0;
       padding: 10px 0 0 14px;
       font-weight: normal;
@@ -95,7 +95,7 @@
       &:visited:hover {
         background: none;
         border: 0;
-        color: $cool-grey;
+        color: $color-mid-dark;
       }
     }
       

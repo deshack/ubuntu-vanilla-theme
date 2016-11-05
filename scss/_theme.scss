@@ -1,10 +1,8 @@
-
+// import required files
+@import 'vanilla-framework/scss/vanilla';
 
 // Theme variables
 @import 'global-settings';
-
-// import required files
-@import 'vanilla-framework/scss/vanilla';
 
 /// ubuntu element styles
 @import 'modules/base';
@@ -35,5 +33,5 @@
   @include ubuntu-lists;
   @include ubuntu-breadcrumbs;
   @include ubuntu-search;
-  @include ubuntu-blockquotes;
 }
+@include ubuntu-blockquotes;

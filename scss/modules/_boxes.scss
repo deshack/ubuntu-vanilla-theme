@@ -20,38 +20,38 @@
 @mixin ubuntu-box() {
   .box {
     @extend %box;
-    background: $white;
-    border: 1px solid $mid-grey;
+    background: $color-x-light;
+    border: 1px solid $color-mid-light;
   }
 }
 
 @mixin ubuntu-box-grey() {
   .box-grey {
     @extend %box;
-    background: $light-grey;
-    color: $cool-grey;
+    background: $color-light;
+    color: $color-mid-dark;
   }
 }
 
 @mixin ubuntu-box-orange() {
   .box-orange {
     background: $ubuntu-orange;
-    color: $white;
+    color: $color-x-light;
   }
 }
 
 @mixin ubuntu-box-highlight() {
   .box-highlight {
-    border: 1px solid $light-grey;
-    box-shadow: 0 2px 2px 0 $mid-grey;
+    border: 1px solid $color-light;
+    box-shadow: 0 2px 2px 0 $color-mid-light;
   }
 }
 
 @mixin ubuntu-box-textured() {
   .box-textured {
-    background: url("#{$asset-path}patterns/grey-textured-background.jpg");
+    background: url("#{$assets-path}patterns/grey-textured-background.jpg");
     border: 0;
-    box-shadow: 0 2px 2px 0 $mid-grey;
+    box-shadow: 0 2px 2px 0 $color-mid-light;
   }
 }
 
@@ -65,7 +65,7 @@
 
     h3 {
       font-size: 1.21875em;
-      margin-left: ($gutter-width / 4);
+      margin-left: ($grid-gutter-width / 4);
       margin-top: 5px;
     }
 
@@ -75,7 +75,7 @@
     }
 
     div {
-      background: $white;
+      background: $color-x-light;
       border-radius: 4px;
       overflow: hidden;
       padding: 8px 8px 2px;
@@ -85,16 +85,16 @@
 
 @mixin ubuntu-box-padded-feature() {
   .box-padded-feature {
-    background: url("#{$asset-path}patterns/soft-centre-bkg.gif") repeat scroll 0 0 $warm-grey;
+    background: url("#{$assets-path}patterns/soft-centre-bkg.gif") repeat scroll 0 0 $color-dark;
     border-radius: 4px;
     border: 0;
     margin-bottom: 20px;
     padding: 11px 5px 6px;
 
     h3 {
-      color: $white;
+      color: $color-x-light;
       font-size: 1.21875em;
-      margin-left: ($gutter-width / 4);
+      margin-left: ($grid-gutter-width / 4);
     }
 
     h4 {
@@ -103,7 +103,7 @@
     }
 
     > div {
-      background: $white;
+      background: $color-x-light;
       border-radius: 4px;
       overflow: hidden;
       padding: 20px 8px;
@@ -179,10 +179,10 @@
     }
 
     &::before {
-      border-bottom: 30px solid $light-grey;
+      border-bottom: 30px solid $color-light;
       border-radius: 0;
-      border-right: 30px solid $white;
-      box-shadow: -2px 2px 2px rgba($light-grey, .4);
+      border-right: 30px solid $color-x-light;
+      box-shadow: -2px 2px 2px rgba($color-light, .4);
       content: '';
       height: 0;
       position: absolute;
@@ -203,8 +203,8 @@
     }
 
     .content-cat {
-      background: url("#{$asset-path}icons/icon-resource-hub-icon-document.png") left center no-repeat;
-      color: $warm-grey;
+      background: url("#{$assets-path}icons/icon-resource-hub-icon-document.png") left center no-repeat;
+      color: $color-dark;
       font-size: 14px;
       letter-spacing: 1px;
       margin: 0;
@@ -214,7 +214,7 @@
     }
 
     .content-cat-webinar {
-      background: url("#{$asset-path}icons/icon-resource-hub-webinar.png") left center no-repeat;
+      background: url("#{$assets-path}icons/icon-resource-hub-webinar.png") left center no-repeat;
     }
 
     &.box-image-centered div + span img {
@@ -227,11 +227,11 @@
   }
 
   .row-grey .resource::before {
-    border-right-color: $light-grey;
+    border-right-color: $color-light;
   }
 }
 
 %box {
   border-radius: 4px;
-  padding: 1.333em $gutter-width;
+  padding: 1.333em $grid-gutter-width;
 }

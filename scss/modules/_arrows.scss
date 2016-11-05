@@ -18,7 +18,7 @@
 @mixin ubuntu-arrow-up() {
   .arrow-up {
     @extend %arrow;
-    background-image: url('#{$asset-path}patterns/arrow-up.png');
+    background-image: url('#{$assets-path}patterns/arrow-up.png');
     left: 20px;
     top: -11px;
   }
@@ -29,7 +29,7 @@
 @mixin ubuntu-arrow-down() {
   .arrow-down {
     @extend %arrow;
-    background-image: url('#{$asset-path}patterns/arrow-down.png');
+    background-image: url('#{$assets-path}patterns/arrow-down.png');
     bottom: -11px;
     right: 20px;
   }
@@ -40,7 +40,7 @@
 @mixin ubuntu-arrow-right() {
   .arrow-right {
     @extend %arrow;
-    background-image: url('#{$asset-path}patterns/arrow-right.png');
+    background-image: url('#{$assets-path}patterns/arrow-right.png');
     height: 18px;
     right: -11px;
     top: 20px;
@@ -53,7 +53,7 @@
 @mixin ubuntu-arrow-left() {
   .arrow-left {
     @extend %arrow;
-    background-image: url('#{$asset-path}patterns/arrow-left.png');
+    background-image: url('#{$assets-path}patterns/arrow-left.png');
     bottom: 20px;
     height: 18px;
     left: -11px;

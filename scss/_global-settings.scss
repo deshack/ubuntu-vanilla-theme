@@ -28,3 +28,7 @@ $box-solid-grey: #efefef;
 
 /// Threshold to switch to small screen naviagtion
 $navigation-threshold:  860px !default;
+
+// Backwards compatibility.
+$text-color: $color-mid-dark;
+$bullet-color: $color-brand;

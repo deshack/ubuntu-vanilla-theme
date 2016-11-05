@@ -15,7 +15,7 @@
   .strip-dark {
     background-color: $dark-aubergine;
     background-image: url('#{$asset-server}62d597f6-background-grid.png');
-    color: $white;
+    color: $color-x-light;
 
     .resource {
       box-shadow: none;
